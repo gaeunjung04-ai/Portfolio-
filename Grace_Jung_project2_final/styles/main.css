@@ -1,0 +1,355 @@
+.site-header {
+    padding: 24px 0 12px;
+    background-color: #f2efe9;
+    border-bottom: 2px solid black;
+}
+
+.header-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+/* HOME HERO */
+.home-hero {
+  padding: 80px 40px;
+}
+
+.hero-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title */
+.hero-title {
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.hero-role {
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 64px;
+  color: #B42375; /* Pink */
+}
+
+.hero-portfolio {
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 80px;
+  color: #000;
+}
+
+/* Button */
+.hero-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 40px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+}
+
+.hero-nav a {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1.5px solid #000;
+  border-radius: 999px;  
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: lowercase;
+
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+
+  transition: all 0.2s ease;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Otomanopee One', sans-serif;
+  background-color: #f2efe9;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "main aside"
+    "footer footer";
+  gap: 24px;
+  padding: 24px;
+}
+
+header { grid-area: header; }
+nav    { grid-area: nav; }
+main   { grid-area: main; }
+aside  { grid-area: aside; }
+footer { grid-area: footer; }
+
+/* Image */
+.hero-image img {
+  max-width: 500px;
+  width: 100%;
+}
+
+header { grid-area: header; }
+nav    { grid-area: nav; }
+main   { grid-area: main; }
+aside  { grid-area: aside; }
+footer { grid-area: footer; }
+
+aside {
+  position: sticky;
+  top: 24px;
+  height: fit-content;
+  background-color: #376CFA;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.sidebar-content {
+  text-align: center;  
+  color: #000;
+}
+
+.sidebar-name {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.sidebar-role {
+  margin: 6px 0 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.sidebar-status {
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.sidebar-block {
+  margin-top: 16px;
+}
+
+.sidebar-label {
+  margin: 0 0 6px;
+  font-weight: 800;
+}
+
+.sidebar-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-block li {
+  margin: 4px 0;
+}
+
+/* ABOUT LAYOUT */
+.about-wrap{
+  background:#f2efe9;
+}
+
+.about-banner{
+  background:#B42375;
+  padding:40px 24px;
+  
+}
+.about-banner h1{
+  margin:0;
+  text-align:center;
+  color:#fff;
+  font-family:'Otomanopee One', sans-serif;
+  font-size:64px;
+  line-height:1;
+}
+
+/* Font */
+.about-banner h1 {
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 64px;        
+  letter-spacing: 1px;
+}
+
+.about-info h2 {
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.about-info h2 span {
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.about-card{
+  display:grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap:24px;
+  padding:24px;
+  align-items:start;
+}
+
+.about-photo{
+  background:#1a0f1d;
+  padding:18px;
+}
+.about-photo img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.about-info h2{
+  margin:0 0 14px;
+  font-family:'Otomanopee One', sans-serif;
+  font-size:36px;
+}
+.about-info h2 span{
+  font-size:28px;
+  font-weight:400;
+}
+.about-info p{
+  margin:0;
+  max-width:46ch;
+  line-height:1.6;
+}
+
+/* Skills / Tools */
+.about-lists{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:24px;
+  padding:24px 24px 40px;
+  text-align:center;
+}
+.list-block h3{
+  margin:0 0 14px;
+  color:#B42375;
+  font-family:'Otomanopee One', sans-serif;
+  font-size:40px;
+}
+.list-block ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  font-size:22px;
+  font-weight:700;
+}
+.list-block li{ margin:8px 0; }
+
+/* PORTFOLIO GRID */
+.portfolio-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 24px;
+  align-items: start;
+}
+
+.work-card{
+  background: transparent;
+}
+
+.work-link{
+  display:block;
+  text-decoration:none;
+  color: inherit;
+}
+
+/* portfolio images */
+.work-link img{
+  width: 100%;       
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  display:block;
+  background: #fff;
+}
+
+.work-label{
+  margin: 14px 0 0;
+  text-align:center;
+  font-size: 28px;
+  font-weight: 800;
+  color: #B42375; 
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+/* CONNECT PAGE */
+.connect{
+  padding: 24px;
+}
+
+.connect-title{
+  margin: 0 0 18px;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.05;
+  font-family: 'Otomanopee One', sans-serif; 
+}
+
+/* sns icons */
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.social-icons img {
+  width: 44px;
+  height: 44px;
+  display: block;
+}
+
+/* box */
+.connect-box {
+  background-color: #B42375;
+  width: 90%;
+  min-height: 240px;
+  padding: 24px;
+  position: relative;
+  color: #fff;
+}
+
+.connect-box-inner{
+  position: absolute;
+  right: 48px;
+  bottom: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* icons & text in the box */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.contact-item img {
+  width: 36px;
+  height: 36px;
+}
